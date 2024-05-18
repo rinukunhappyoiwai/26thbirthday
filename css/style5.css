@@ -1,0 +1,203 @@
+@charset "UTF=8";
+
+/*　共通部分
+------------------------------*/
+html{
+    font-size: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 2', sans-serif;
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* HEADER
+--------------------------*/
+.logo{
+    width: 150px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #4c4041;
+}
+.main-nav a:hover{
+    color: #4c4041;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+header{
+    background-color: #ffffff;
+    box-shadow: 0 0 8px gray;
+}
+
+/* main */
+
+.mainall {
+    border-radius: 1px;
+    border: 3px solid #b93544;
+    margin: 0px 400px;
+    padding: 40px 0px 60px;
+}
+.main-title h2{
+    font-size: 2.55rem;
+    text-align: center;
+    letter-spacing: 13px;
+    color: #4c4041;
+
+}
+.main-page{
+    color: #4c4041;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-page h2{
+    text-align: center;
+    margin: 10px;
+}
+
+
+/*　主催　*/
+.syusaiall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.syusai{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 70px;
+}
+
+/* アイコンの作成 */
+.balloon-chat figure img {
+    border-radius: 50%; /*丸の設定*/
+    border: 4px solid #b93544; /*アイコンの枠のカラーと太さはここで変更*/
+    margin: 0;
+}
+
+/* アイコンの大きさ */
+.syusai img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%; /*丸の設定*/
+}
+
+/* アイコンの名前の設定 */
+.icon-name {
+    width: 100px; /* アイコンの大きさと合わせる */
+    font-size: 14px;
+    text-align: center;
+    color: #4c4041;
+}
+
+
+
+
+
+
+
+
+
+/*　メッセージあり　*/
+.ariall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ari{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 60px;
+}
+.ari h2{
+    margin: 0%;
+    padding: 0%;
+}
+.ari p{
+    margin: 0%;
+    padding: 0%;
+}
+/* アイコンの作成 */
+.balloon-chat figure img {
+    border-radius: 50%; /*丸の設定*/
+    border: 4px solid #b93544; /*アイコンの枠のカラーと太さはここで変更*/
+    margin: 0;
+}
+
+/* アイコンの大きさ */
+.ari img {
+    width: 90px;
+    height: 90px;border-radius: 50%; /*丸の設定*/
+}
+
+/* アイコンの名前の設定 */
+.icon-name {
+    width: 100px; /* アイコンの大きさと合わせる */
+    font-size: 14px;
+    text-align: center;
+    color: #4c4041;
+}
+
+
+
+
+
+
+
+
+
+/*　メッセージなし　*/
+.nasiall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nasi{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}    
+.nasi h2{
+    margin: 0%;
+    padding: 0%;
+}
+.nasi p{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* line */
+.style {
+    height:0px;
+    border-radius: 1px;
+    border: 1px solid #aa9671;
+    margin: 70px 70px;
+}

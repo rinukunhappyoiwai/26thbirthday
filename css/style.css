@@ -1,0 +1,105 @@
+@charset "UTF=8";
+
+/*　共通部分
+------------------------------*/
+html{
+    font-size: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 2', sans-serif;
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* HEADER
+--------------------------*/
+.logo{
+    width: 150px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #4c4041;
+}
+.main-nav a:hover{
+    color: #4c4041;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+header{
+    background-color: #ffffff;
+    box-shadow: 0 0 8px gray;
+}
+
+/* titlepage
+------------------------*/
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p{
+    font-size: 1.125rem;
+    margin: 20px 0 100px;
+    color: #b93544;
+    letter-spacing: 8px;
+}
+
+/*　見出し　*/
+.page-title{
+    font-size: 7.2rem;
+    font-family: 'Sacramento', cursive;
+    color: #b93544;
+    margin: 0%;
+}
+
+/*　ボタン　*/
+.button{
+    font-size: 1.375rem;
+    letter-spacing: 2px;
+    background: #b93544;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 35px;
+}
+.button:hover{
+    background: #be4c59;
+}
+
+/*　大きな背景画像　*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+}
+#home{
+    background-image: url(../images/イラストboke.png);
+    min-height: 100vh;
+}
+#home .page-title{    
+    text-transform: none;
+}

@@ -1,0 +1,71 @@
+@charset "UTF=8";
+
+/*　共通部分
+------------------------------*/
+html{
+    font-size: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 2', sans-serif;
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* HEADER
+--------------------------*/
+.logo{
+    width: 150px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #4c4041;
+}
+.main-nav a:hover{
+    color: #4c4041;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+header{
+    background-color: #ffffff;
+    box-shadow: 0 0 8px gray;
+}
+
+/* main */
+.main-title h2{
+    font-size: 2.55rem;
+    text-align: center;
+    letter-spacing: 13px;
+    color: #4c4041;
+}
+.main-title h3{
+    text-align: center;
+    color: #b93544;
+    letter-spacing: 10px;
+}
